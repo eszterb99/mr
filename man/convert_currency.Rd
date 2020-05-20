@@ -2,7 +2,7 @@
 % Please edit documentation in R/convert_currency.R
 \name{convert_currency}
 \alias{convert_currency}
-\title{Query historical exchange rates for any currency for the past number of days}
+\title{Query historical exchange rates}
 \usage{
 convert_currency(base, symbol, days)
 }
@@ -14,8 +14,8 @@ convert_currency(base, symbol, days)
 \item{days}{number of days to go back from current date}
 }
 \description{
-Query historical exchange rates for any currency for the past number of days
+Query historical exchange rates for any currency for the past number of days from https://exchangeratesapi.io/.
 }
 \examples{
-convert_currency('EUR', 'USD', 10)
+convert_currency('EUR', 'HUF', 10)
 }
