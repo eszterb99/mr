@@ -7,7 +7,7 @@
 #' @export
 #' @importFrom jsonlite fromJSON
 #' @importFrom data.table data.table
-#' @importFrom httr content
+#' @importFrom httr content GET
 #' @examples
 #' convert_currency('EUR', 'HUF', 10)
 convert_currency <- function(base, symbol, days) {
