@@ -4,7 +4,7 @@ Title: Mastering R Skills homework I
 Version: 0.1.0
 Author: Eszter B.
 Maintainer: Eszter B. <eszter@mail.com>
-Description: It does two things: formats a quantity to display in HUF and gets the current Bitcoin price.
+Description: It does three things: formats a quantity to display in HUF, gets the current Bitcoin price and gets exchange rates.
 License: AGPL
 Encoding: UTF-8
 LazyData: true
