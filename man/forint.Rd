@@ -18,4 +18,5 @@ Convert USD to HUF
 \examples{
 forint(100000)
 forint(10.3241245125125)
+forint(42)
 }
