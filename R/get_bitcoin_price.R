@@ -8,7 +8,8 @@ get_bitcoin_price <- function(retried = 0) {
   tryCatch(
     ## not using data.table syntax here and falling back to data.frame
     ## so that this could run on systems without data.table as well
-    subset(binance_coins_prices(), symbol == 'BTC')$usd,
+    data <- binance_coins_prices(),
+    subset(data, symbol == 'BTC')$usd,
     error = function(e) {
       ## exponential backoff retries
       Sys.sleep(1 + retried^2)
